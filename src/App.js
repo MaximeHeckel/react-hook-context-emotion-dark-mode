@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "@emotion/styled";
 import { useTheme } from "./ThemeContext";
+
 const Wrapper = styled("div")`
   background: ${props => props.theme.background};
   width: 100vw;
